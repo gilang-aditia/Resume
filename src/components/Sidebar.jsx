@@ -22,10 +22,10 @@ const Sidebar = () => {
           </h1>
           <p className="title">Front End Developer</p>
         </div>
-        <button className="info_more-btn" data-sidebar-btn>
+        {/* <button className="info_more-btn" data-sidebar-btn>
           <span>Lihat Kontak</span>
           <CiCircleChevDown />
-        </button>
+        </button> */}
       </div>
       <div className="sidebar-info_more">
         <div className="separator" />

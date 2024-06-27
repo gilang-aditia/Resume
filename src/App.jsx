@@ -18,17 +18,17 @@ const App = () => {
     };
 
     // sidebar variables
-    const sidebar = document.querySelector("[data-sidebar]");
-    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    // const sidebar = document.querySelector("[data-sidebar]");
+    // const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
     // Add event listener only if sidebarBtn exists
-    if (sidebarBtn) {
-      sidebarBtn.addEventListener("click", () => {
-        elementToggleFunc(sidebar);
-      });
-    } else {
-      console.error("sidebarBtn not found");
-    }
+    // if (sidebarBtn) {
+    //   sidebarBtn.addEventListener("click", () => {
+    //     elementToggleFunc(sidebar);
+    //   });
+    // } else {
+    //   console.error("sidebarBtn not found");
+    // }
 
     // testimonials variables
     const testimonialsItem = document.querySelectorAll(
