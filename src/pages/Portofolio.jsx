@@ -6,6 +6,12 @@ const Portofolio = () => {
       <header>
         <h2 className="h2 article-title">Portfolio</h2>
       </header>
+      <section className="resume-content mt-10">
+        <img
+          src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d0cfe7d1-0b8c-4e4a-9a66-875290ba6065"
+          alt=""
+        />
+      </section>
       {/* <section className="projects">
         <ul className="filter-list">
           <li className="filter-item">
